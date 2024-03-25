@@ -61,3 +61,66 @@ nav {
     cursor: pointer;
 }
 
+.learn_more {
+    margin-top: 15vh;
+    font-size: 0.9vw;
+}
+
+.card_container {
+    display: flex;
+    gap: 5vw;
+    padding-top: 2vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.card2 {
+    margin-top: 12.5vh;
+}
+
+.card3 {
+    margin-top: 7.5vh;
+}
+
+.card .box {
+    width: 15vw;
+    height: 40vh;
+    transition: 0.3s ease;
+    cursor: crosshair;
+}
+
+.box1 {
+    background-color: #ff4141;
+}
+
+.box2 {
+    background-color: #f49fae;
+}
+
+.box3 {
+    background-color: #a7b580;
+}
+
+.card_content{
+    display: flex;
+    flex-direction: column;
+    font-weight:500 ;
+}
+
+.card_content::before{
+    content: "";
+    display: block;
+    width: 100vw;
+    height: .5vh;
+    background-color: #ffffff55;
+    margin-bottom: 5vh;
+
+}
+
+.card_content span:last-child{
+    margin-top: 5vh;
+}
